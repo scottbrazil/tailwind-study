@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer components {
+    /* Button Template */
+    .btn-primary {
+      @apply bg-green-500 hover:bg-green-600 text-xs text-white m-2 py-1 px-2 rounded;
+    }
+}
